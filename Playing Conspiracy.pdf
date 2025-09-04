@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+ <html lang="en-US" xml:lang="en-US">
+ 	<head>
+			<title>Playing Conspiracy | M/C Journal</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@CreativeIndust">
+	<meta name="twitter:creator" content="@CreativeIndust">
+	<meta name="twitter:title" content="Playing Conspiracy | M/C Journal">
+	<meta name="twitter:description" content="Introduction  
+ Scholars, journalists, conspiracists, and public-facing groups have employed a variety of analogies to discuss the role that misleading content (conspiracy theory, disinformation, malinformation, and misinformation), plays in our everyday lives. Terms like the “disinformation war” (Hwang) or the “Infodemic” (United Nations) attempt to summarise the..." >
+	<meta name="twitter:image" content="https://journal.media-culture.org.au/public/journals/1/pageHeaderLogoImage_en_US.svg">
+	<meta property="og:title" content="Playing Conspiracy | M/C Journal">
+	<meta property="og:image" content="https://journal.media-culture.org.au/public/journals/1/pageHeaderLogoImage_en_US.svg">
+	<meta property="og:type" content="article">	
+<meta name="generator" content="Open Journal Systems 3.2.1.1">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Scott DeJong"/>
+<meta name="DC.Creator.PersonalName" content="Alexandre Bustamante de Monti Souza"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2022-03-17"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2022-01-06"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2022-03-16"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2022-03-17"/>
+<meta name="DC.Description" xml:lang="en" content="Introduction
+Scholars, journalists, conspiracists, and public-facing groups have employed a variety of analogies to discuss the role that misleading content (conspiracy theory, disinformation, malinformation, and misinformation), plays in our everyday lives. Terms like the “disinformation war” (Hwang) or the “Infodemic” (United Nations) attempt to summarise the issues of misleading content to aide public understanding. This project studies the effectiveness of these analogies in conveying the movement of online conspiracy theory in social media networks by simulating them in a game. Building from growing comparisons likening conspiracy theories to game systems (Berkowitz; Kaminska), we used game design as a research tool to test these analogies against theory. This article focusses on the design process, rather than implementation, to explore where the analogies succeed and fail in replication.
+Background and Literature Review
+Conspiracy Theories and Games
+Online conspiracy theories reside in the milieu of misinformation (unintentionally incorrect), disinformation (intentionally incorrect), and malinformation (intentionally harmful) (Wardle and Derakhshan 45). They are puzzled together through the vast amount of information available online (Hannah 1) creating a “hunt” for truth (Berkowitz) that refracts information through deeply personal narratives that create paradoxical interpretations (Hochschild xi). Modern social media networks offer curated but fragmented content distribution where information discovery involves content finding users through biased sources (Toff and Nielsen 639).
+This puzzling together of theories gives conspiracy theorists agency in ‘finding the story’, giving them agency in a process with underlining goals (Kaminska). A contemporary example is QAnon, where the narrative of a “secret global cabal”, large-scale pedophile rings, and overstepping government power is pieced together through Q-drops or cryptic clues that users decipher (Bloom and Moskalenko 5). This puzzle paints a seemingly hidden reality for players to uncover (Berkowitz) and offers gripping engagement which connects “disparate data” into a visualised conspiracy (Hannah 3).
+Despite their harmful impacts, conspiracy theories are playful (Sobo). They can be likened to playful acts of make-belief (Sobo), reality-adjacent narratives that create puzzles for exploration (Berkowitz), and community building through playful discovery (Bloom and Moskalenko 169). Not only do conspiracies “game the algorithm” to promote content, but they put players into in a self-made digital puzzle (Bloom and Moskalenko 17, 18).
+This array of human and nonhuman actors allows for truth-spinning that can push people towards conspiracy through social bonds (Moskalenko). Mainstream media and academic institutions are seen as biased and flawed information sources, prompting these users to “do their own research” within these spaces (Ballantyne and Dunning). However, users are in fragmented worldviews, not binaries of right and wrong, which leaves journalism and fact-checkers in a digital world that requires complex intervention (De Maeyer 22).
+Analogies
+Analogies are one method of intervention. They offer explanation for the impact conspiracy has had on society, such as the polarisation of families (Andrews). Both conspiracists and public-facing groups have commonly used an analogy of war. The recent pandemic has also introduced analogies of virality (Hwang; Tardáguila et al.).
+A war analogy places truth on a battleground against lies and fiction. “Doing your own research” is a combat maneuver for conspiracy proliferation through community engagement (Ballantyne and Dunning). Similarly, those fighting digital conspiracies have embraced the analogy to explain the challenges and repercussions of content. War suggests hardened battlelines, the need for public mobilisation, and a victory where truth prevails, or defeat where fallacy reigns (Shackelford).
+Comparatively, a viral analogy, or “Infodemic” (United Nations), suggests misleading content as moving through a network like an infectious system; spreading through paths of least resistance or effective contamination (Scales et al. 678; Graham et al. 22). Battlelines are replaced with paths or invasion, where the goal is to infect the system or construct a rapid response vaccine that can stymie the ever-growing disease (Tardáguila et al.).
+In both cases, victorious battles or curative vaccinations frame conspiracy and disinformation as temporary problems. The idea of the rise and falls of a conspiracy’s prominence as link to current events emulates Byung-Chung Han’s notion of the digital swarm, or fragmented communities that coalesce, bubble up into volatile noise, and then dissipate without addressing the “dominant power relations” (Han 12). For Han, swarms arise in digital networks with intensive support before disappearing, holding an influential but ephemeral life.
+Recently, scholarship has applied a media ecology lens to recognise the interconnection of actors that contribute to these swarms. The digital-as-ecosystem approach suggests a network that needs to be  actively managed (Milner and Phillips 8). Tangherlini et al.’s work on conspiracy pipelines highlights the various actors that move information through them to make the digital ecosystem healthy or unhealthy (Tangherlini et al.). Seeing the Internet, and the movement of information on it, as an ecology posits a consideration of processes that are visible (i.e., conspiracy theorists) and invisible (i.e., algorithms etc.) and is inclusive of human and non-human actors (Milner and Phillips).
+With these analogies as frames, we answer Sobo’s call for a playful lens towards conspiracy alongside De Maeyer’s request for serious interventions by using serious play. If we can recognise both conspiracy and its formation as game-like and understand these analogies as explanatory narratives, we can use simulation game design to ask: how are these systems of conspiracy propagation being framed? What gaps in understanding arise when we frame conspiracy theory through the analogies used to describe it?  
+Method
+Research-Creation and Simulation Gaming
+Our use of game design methods reframed analogies through “gaming literacy”, which considers the knowledge put into design and positions the game as a set of practices relating to the everyday (Zimmerman 24). This process requires constant reflection. In both the play of the game and the construction of its parts we employed Khaled’s critical design framework (10-11). From March to December 2021 we kept reflective logs, notes from bi-weekly team meetings, playtest observations, and archives of our visual design to consistently review and reassess our progression. We asked how the visuals, mechanics, and narratives point to the affordances and drawbacks of these analogies.
+Visual and Mechanical Design
+Before designing the details of the analogies, we had to visualise their environment – networked social media. We took inspiration from existing visual representations of the Internet and social media under the hypothesis that employing a familiar conceptual model could improve the intelligibility of the game (figs. 1 and 2). In usability design, this is referred to as &quot;Jakob's law&quot; (Nielsen), in which, by following familiar patterns, the user can focus better on content, or in our case, play.
+
+Fig. 1: “My Twitter Social Ego Networks” by David Sousa-Rodrigues. A visual representation of Sousa-Rodrigues’s social media network. &amp;lt;https://www.flickr.com/photos/11452351@N00/2048034334&amp;gt;.
+We focussed on the networked publics (Itō) that coalesce around information and content disclosure. We prioritised data practices that influence community construction through content (Bloom and Moskalenko 57), and the larger conspiracy pipelines of fragmented data (Tangherlini et al. 30).
+
+Fig. 2: &quot;The Internet Map&quot; by Ruslan Enikeev. A visual, 2D, interactive representation of the Internet. &amp;lt;http://internet-map.net/&amp;gt;.
+Our query focusses on how play reciprocated, or failed to reciprocate, these analogies. Sharp et al.’s suggestion that obvious and simple models are intuitively understood allowed us to employ simplification in design in the hopes of parsing down complex social media systems. Fig. 3 highlights this initial attempt where social media platforms became “networks” that formed proximity to specific groups or “nodes”.
+
+Fig. 3: Early version of the game board, with a representation of nodes and networks as simplified visualisations for social networks.
+This simplification process guided the scaling of design as we tried to make the seemingly boundless online networks accessible. Colourful tokens represented users, placed on the nodes (fig. 4). Tokens represented portions of the user base, allowing players to see the proliferation of conspiracy through the network. Unfortunately, this simplification ignores the individual acts of users and their ability to bypass these pipelines as well as the discovery-driven collegiality within these communities (Bloom and Moskalenko 57). To help offset this, we designed an overarching scenario and included “flavour text” on cards (fig. 5) which offered narrative vignettes that grounded player actions in dynamic story. 
+
+Fig. 4: The first version for the printed playtest for the board, with the representation of “networks” formed by a clustering of &quot;nodes&quot;. The movement of conspiracy was indicated by colour-coded tokens.
+
+Fig. 5: Playing cards. They reference a particular action which typically adds or removes token. They also reference a theory and offer text to narrativise the action.
+Design demonstrates that information transmission is not entirely static. In the most recent version (fig. 6), this meant having the connections between nodes become subverted through player actions. Game mechanics, such as playing cards (fig. 5), make these pipelines interactive and visible by allowing players to place and move content throughout the space in response to each other’s actions.
+
+Fig. 6: The most updated version of the board, now named &quot;Lizards and Lies&quot;. Red regions are initial starting points for conspiracy to enter mainstream social media (purple).
+Design adaptations focussed on making conspiracy theory dynamic. Player choice (i.e. where to add conspiracy) had to consider a continuously changing board created by other actors to reflect the adaptive nature of conspiracy theories. In this way, analogies came alive or died through the actions of players within a visually responsive system. This meant that each game had different swarms of conspiracy, where player decisions “wrote” a narrative through play. By selecting how and where conspiracy might be placed or removed, players created a narrative distinct to their game. For example, a conspiracy theorist player (one playable character) might explain their placing of conspiracy theory within the Chrpr/Twitter network as a community response to fact-checking (second playable character) in the neighbouring Shreddit/Reddit community.
+Results
+War Analogy
+Initial design took inspiration from wargaming to consider battlelines, various combatants, and a simulated conflict. Two player characters were made. Conspiracy theorists were posited against fact-checkers, where nodes and networks functioned as battlelines of intervention.
+The war narrative was immediately challenged by the end-state. Either conspiracy overtook networks or the fact checkers completely stymied conspiracy’s ability to exist. Both end-states seemed wrong for players. Battle consistently felt futile as conspiracists could always add more content, and fact-checkers could always remove something.
+Simply put, war fell flat. While the game could depict communities and spaces of combat, it struggled to represent how fragmented conspiracy theories are. In play, conspiracy theory became stagnant, the flow of information felt compelled, and the actors entered uneven dynamics. Utopia was never achieved, and war always raged on. Even when players did overtake a network, the victory condition (needing to control the most networks) made this task, which would normally be compelling, feel lacklustre.
+To address this, we made changes. We altered the win condition to offer points at the end of each turn depending on what the player did (i.e., spreading conspiracy into networks). We expanded the number of networks and connections between them (fig. 3 and fig. 6) to include more fluid and fragmented pipelines of conspiracy dissemination. We included round-end events which shifted the state of the game based on other actors, and we pushed players to focus on their own actions more than those of the others on the board. These changes naturally shifted the battleground from hardened battle lines to a fragmented amorphous spread of disinformation; it moved war to virality.
+Viral Analogy
+As we transitioned towards the viral, we prioritised the reflexive, ephemeral movements of conspiracy proliferating through networks. We focussed less on adding and removing content and shifted to the movement of actors through the space. Some communities became more susceptible to conspiracy content, fact-checkers relied on flagging systems, and conspiracy theories followed a natural, but unexpected pipeline of content dissemination.
+These changes allowed players to feel like individual actors with specific goals rather than competing forces. Fact-checkers relied on mitigation and response while conspiracists evaluated the susceptibility of specific communities to conspiracy content. This change illuminated a core issue with fact-checking; it is entirely responsive, endless, and too slow to stop content from having an impact. While conspiracists could play one card to add content, fact-checkers had to flag content, move their token, and use a player card to eliminate content – all of which exacerbated this issue. In this manner, the viral approach rearticulated how systems themselves afford the spread of conspiracy, where truly effective means to stop the spread relied on additional system actors, such as training algorithms to help remove and flag content.
+While a more effective simulation, the viral analogy struggled in its presentation of conspiracy theory within social media. Play had a tipping point, where given enough resources, those stopping the spread of conspiracy could “vaccinate” it and clean the board. To alter this, our design began to consider actions and reactions, creating a push and pull of play focussed on balancing or offsetting the system. This transition naturally made us consider a media ecology analogy.
+Media Ecology
+Replacing utopic end-states with a need to maintain network health reframed the nature of engagement within this simulation. An ecological model recognises that harmful content will exist in a system and aims not at elimination, but at maintaining a sustainable balance. It is responsive. It considers the various human and non-human actors at play and focusses on varied actor goals. As our game shifted to an ecological model, homogenous actors of conspiracists or fact-checkers were expanded. We transitioned a two-player game into a four-player variant, testing options like literacy educators, content recommending algorithms, and ‘edgelords'. Rather than defeating or saving social media, play becomes focussed on actors in the system.
+Play and design demonstrated how actions would shape play decisions. Characters were seen as network actors rather than enemies, changing interaction. Those spreading conspiracy began to focus less on “viral paths”, or lines of battle, and instead on where or how they could impact system health. In some cases, conspiracists would build one network of support, in others they created pockets around the board from which they could run campaigns. Those stopping the spread came to see their job as management. Rather than try and eliminate all conspiracy, they determined which sites to engage with, what content held the greatest threat, and which tools would be most effective. Media ecology play focussed less on outsmarting opponents and instead on managing an actor’s, and other players’, goals within an evolving system.
+Challenging Swarms and a Turn to Digital Ecology
+Using games to evaluate analogies illuminates clear gaps in their use, and the value of a media ecology lens. A key issue across the two main analogies (war and virality) was a utopic endstate. The idea that conspiracy can be beaten back, or vaccinated, fails to consider the endless amount of conspiracy possible to be made, or the impossibility of vaccinating the entire system. As our transitionary design process shows, the notion of winners and losers misplaces the intent of various actors groups where conspiracy is better framed as community-building rather than “controlling” a space (Bloom and Moskalenko 57).
+In design, while Han’s notion of the swarm was helpful, it struggled to play out in our simulations because fragments of conspiracy always remained on the board. This lingering content suggests that fact-checking does not actually remove ideological support. Swarms could quickly regrow around lingering support presenting them not as ephemeral as Han argued. As design transitioned towards ecology, these “fragments” were seen as part of a system of actors. Gameplay shows a deep interplay between the removal of content and its spread, arguing that removing conspiracy is a band-aid solution to a larger problem.
+Our own simplification of analogy into a game is not without limitations. Importantly, the impact of user specific acts for interpreting a movement (Toff and Nielsen 640), and the underlying set of networks that create “dark platforms” (Zeng and Schäfer 122) were lost in the game’s translation. Despite this, our work provides directions for scholarship and those engaging with the public on these issues to consider. Reframing our lens to understand online conspiracy as an aspect of digital ecological health, asks us to move away from utopic solutions and instead focus on distinct actors as they relate to the larger system.
+Conclusion
+Employing serious play as a lens to our framing of digital conspiracy, this project emphasises a turn towards media ecology models. Game design functioned as a tool to consider the actors, behaviours, and interactions of a system. Our methodological approach for visualising war and viral analogies demonstrates how playful responses can prompt questions and considerations of theory. Playing in this way, offers new insights for how we think about and grapple with the various actors associated with conspiracy theory and scholarship should continue to embrace ecological models to weigh the assemblage of actors.
+References
+Andrews, Travis. “QAnon Is Tearing Families Apart.” Washington Post, 2020. &amp;lt;https://www.washingtonpost.com/technology/2020/09/14/qanon-families-support-group/&amp;gt;.
+Ballantyne, Nathan, and David Dunning. “Skeptics Say, ‘Do Your Own Research.’ It’s Not That Simple.” The New York Times, 3 Jan. 2022. &amp;lt;https://www.nytimes.com/2022/01/03/opinion/dyor-do-your-own-research.html&amp;gt;.
+Berkowitz, Reed. “QAnon Resembles the Games I Design. But for Believers, There Is No Winning.” Washington Post, 2021. &amp;lt;https://www.washingtonpost.com/outlook/qanon-game-plays-believers/2021/05/10/31d8ea46-928b-11eb-a74e-1f4cf89fd948_story.html&amp;gt;.
+Bloom, Mia, and Sophia Moskalenko. Pastels and Pedophiles: Inside the Mind of QAnon. Stanford University Press, 2021.
+De Maeyer, Juliette. “Taking Conspiracy Culture Seriously: Journalism Needs to Face Its Epistemological Trouble.” Journalism 20.1 (2019): 21–23. &amp;lt;https://doi.org/10.1177/1464884918807037&amp;gt;.
+Graham, Timothy, et al. Like a Virus: The Coordinated Spread of Coronavirus Disinformation. The Australia Institute, 2020. &amp;lt;https://apo.org.au/node/305864&amp;gt;.
+Han, Byung-Chul. In the Swarm: Digital Prospects. Trans. Erik Butler. MIT Press, 2017.
+Hannah, Matthew N. “A Conspiracy of Data: QAnon, Social Media, and Information Visualization.” Social Media + Society, 7.3 (2021). &amp;lt;https://doi.org/10.1177/20563051211036064&amp;gt;.
+Hochschild, Arlie Russell. Strangers in Their Own Land: Anger and Mourning on the American Right. The New Press, 2016.
+Hwang, Tim. “Deconstructing the Disinformation War.” MediaWell, Social Science Research Council 1 June 2020. &amp;lt;https://mediawell.ssrc.org/expert-reflections/deconstructing-the-disinformation-war/&amp;gt;.
+Itō, Mizuko. “Introduction.” Networked Publics. Ed. Kazys Varnelis. MIT Press, 2008.
+Kaminska, Izabella. “The ‘Game Theory’ in the Qanon Conspiracy Theory.” Financial Times 16 Oct. 2020. &amp;lt;https://www.ft.com/content/74f9d20f-9ff9-4fad-808f-c7e4245a1725&amp;gt;.
+Khaled, Rilla. “Questions over Answers: Reflective Game Design.” Playful Disruption of Digital Media. Ed. Daniel Cermak-Sassenrath. Singapore: Springer, 2018. 3–27. &amp;lt;https://doi.org/10.1007/978-981-10-1891-6_1&amp;gt;.
+Milner, Ryan M., and Whitney Phillips. You Are Here. MIT Press, 2020. &amp;lt;https://you-are-here.pubpub.org/&amp;gt;.
+Moskalenko, Sophia. “Evolution of QAnon &amp;amp; Radicalization by Conspiracy Theories.” The Journal of Intelligence, Conflict, and Warfare 4.2 (2021): 109–14. &amp;lt;https://doi.org/10.21810/jicw.v4i2.3756&amp;gt;.
+Nielsen, Jakob. “End of Web Design.” Nielsen Norman Group, 2000. &amp;lt;https://www.nngroup.com/articles/end-of-web-design/&amp;gt;.
+Scales, David, et al. “The Covid-19 Infodemic — Applying the Epidemiologic Model to Counter Misinformation.” New England Journal of Medicine 385.8  (2021): 678–81. &amp;lt;https://doi.org/10.1056/NEJMp2103798&amp;gt;.
+Shackelford, Scott. “The Battle against Disinformation Is Global.” The Conversation 2020. &amp;lt;http://theconversation.com/the-battle-against-disinformation-is-global-129212&amp;gt;.
+Sharp, Helen, et al. Interaction Design: Beyond Human-Computer Interaction. 5th ed. Wiley, 2019.
+Sobo, Elisa Janine. “Playing with Conspiracy Theories.” Anthropology News 31 July 2019. &amp;lt;https://www.anthropology-news.org/articles/playing-with-conspiracy-theories/&amp;gt;.
+Tangherlini, Timothy R., et al. “An Automated Pipeline for the Discovery of Conspiracy and Conspiracy Theory Narrative Frameworks: Bridgegate, Pizzagate and Storytelling on the Web.” PLoS ONE 15.6 (2020). &amp;lt;https://doi.org/10.1371/journal.pone.0233879&amp;gt;.
+Tardáguila, Cristina, et al. “Taking an Ecological Approach to Misinformation.” Poynter 5 Dec. 2019. &amp;lt;https://www.poynter.org/fact-checking/2019/taking-an-ecological-approach-to-misinformation/&amp;gt;.
+Toff, Benjamin, and Rasmus Kleis Nielsen. “‘I Just Google It’: Folk Theories of Distributed Discovery.” Journal of Communication 68.3 (2018): 636–57. &amp;lt;https://doi.org/10.1093/joc/jqy009&amp;gt;.
+United Nations. “UN Tackles ‘Infodemic’ of Misinformation and Cybercrime in COVID-19 Crisis.” 2020. &amp;lt;https://www.un.org/en/un-coronavirus-communications-team/un-tackling-%E2%80%98infodemic%E2%80%99-misinformation-and-cybercrime-covid-19&amp;gt;.
+Wardle, Claire, and Hossein Derakhshan. “Thinking about ‘Information Disorder’: Formats of Misinformation, Disinformation, and Mal-Information.” Journalism, ‘Fake News’ &amp;amp; Disinformation. Eds. Cherilyn Ireton and Julie Posetti. Paris: Unesco, 2018. 43–54.
+Zeng, Jing, and Mike S. Schäfer. “Conceptualizing ‘Dark Platforms’. Covid-19-Related Conspiracy Theories on 8kun and Gab.” Digital Journalism 9.9 (2021): 1321–43. &amp;lt;https://doi.org/10.1080/21670811.2021.1938165&amp;gt;.
+Zimmerman, Eric. “Gaming Literacy: Game Design as a Model for Literacy in the Twenty-First Century.” The Video Game Theory Reader 2. 2008. 9."/>
+<meta name="DC.Identifier" content="2869"/>
+<meta name="DC.Identifier.DOI" content="10.5204/mcj.2869"/>
+<meta name="DC.Identifier.URI" content="https://journal.media-culture.org.au/index.php/mcjournal/article/view/2869"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2022 Scott DeJong, Alexandre Bustamante"/>
+<meta name="DC.Rights" content="http://creativecommons.org/licenses/by-nc-nd/4.0"/>
+<meta name="DC.Source" content="M/C Journal"/>
+<meta name="DC.Source.ISSN" content="1441-2616"/>
+<meta name="DC.Source.Issue" content="1"/>
+<meta name="DC.Source.Volume" content="25"/>
+<meta name="DC.Source.URI" content="https://journal.media-culture.org.au/index.php/mcjournal"/>
+<meta name="DC.Title" content="Playing Conspiracy"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Articles"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="M/C Journal"/>
+<meta name="citation_journal_abbrev" content="M/C J"/>
+<meta name="citation_issn" content="1441-2616"/> 
+<meta name="citation_author" content="Scott DeJong"/>
+<meta name="citation_author_institution" content="Concordia University"/>
+<meta name="citation_author" content="Alexandre Bustamante de Monti Souza"/>
+<meta name="citation_author_institution" content="Concordia University"/>
+<meta name="citation_title" content="Playing Conspiracy: Framing Conspiracy Theory Analogies within Research-Creation Board Game Design"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2022/03/17"/>
+<meta name="citation_volume" content="25"/>
+<meta name="citation_issue" content="1"/>
+<meta name="citation_doi" content="10.5204/mcj.2869"/>
+<meta name="citation_abstract_html_url" content="https://journal.media-culture.org.au/index.php/mcjournal/article/view/2869"/>
+<link rel="alternate" type="application/atom+xml" href="https://journal.media-culture.org.au/index.php/mcjournal/gateway/plugin/WebFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://journal.media-culture.org.au/index.php/mcjournal/gateway/plugin/WebFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://journal.media-culture.org.au/index.php/mcjournal/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://journal.media-culture.org.au/index.php/mcjournal/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css?v=3.2.1.1" type="text/css" /><link rel="stylesheet" href="https://journal.media-culture.org.au/public/journals/1/styleSheet.css?v=3.2.1.1" type="text/css" />
+	<link rel="stylesheet" href="/plugins/themes/mediaculture/styles/vendor/jquery.fancybox.min.css">
+</head><body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer">
+						 <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://journal.media-culture.org.au/index.php/mcjournal/index
+					" class="is_img">
+							<img src="https://journal.media-culture.org.au/public/journals/1/pageHeaderLogoImage_en_US.svg" alt="M/C Journal" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/issue/current">
+					Current
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/issue/archive">
+					Archives
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/about">
+					About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://journal.media-culture.org.au/index.php/mcjournal/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journal.media-culture.org.au/index.php/mcjournal/about/submissions">
+										Submissions
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journal.media-culture.org.au/index.php/mcjournal/about/editorialTeam">
+										Editorial Team
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journal.media-culture.org.au/index.php/mcjournal/about/privacy">
+										Privacy Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journal.media-culture.org.au/index.php/mcjournal/about/contact">
+										Contact
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																								
+	<form class="pkp_search pkp_search_desktop" action="https://journal.media-culture.org.au/index.php/mcjournal/search/search" method="get" role="search" aria-label="Article Search">
+		<input type="hidden" name="csrfToken" value="ddc79a5d6f5cd9212bd8198371ec0a76">
+				
+			<input name="query" value="" type="text" aria-label="Search Query">
+		
+
+		<button type="submit">
+			Search
+		</button>
+		<div class="search_controls">
+			<a href="https://journal.media-culture.org.au/index.php/mcjournal/search/search" class="headerSearchPrompt search_prompt">
+				Search
+			</a>
+			<a href="#" class="search_cancel headerSearchCancel">Cancel Search</a>
+			<span class="search_loading"></span>
+		</div>
+	</form>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+																		
+	<form class="pkp_search pkp_search_mobile" action="https://journal.media-culture.org.au/index.php/mcjournal/search/search" method="get" role="search" aria-label="Article Search">
+		<input type="hidden" name="csrfToken" value="ddc79a5d6f5cd9212bd8198371ec0a76">
+				
+			<input name="query" value="" type="text" aria-label="Search Query">
+		
+
+		<button type="submit">
+			Search
+		</button>
+		<div class="search_controls">
+			<a href="https://journal.media-culture.org.au/index.php/mcjournal/search/search" class="headerSearchPrompt search_prompt">
+				Search
+			</a>
+			<a href="#" class="search_cancel headerSearchCancel">Cancel Search</a>
+			<span class="search_loading"></span>
+		</div>
+	</form>
+									</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://journal.media-culture.org.au/index.php/mcjournal/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://journal.media-culture.org.au/index.php/mcjournal/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/issue/view/conspiracy">
+					Vol. 25 No. 1 (2022): conspiracy
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Articles
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		 <article class="obj_article_details">
+		
+	<h1 class="page_title">
+		Playing Conspiracy
+	</h1>
+
+			<h2 class="subtitle">
+			Framing Conspiracy Theory Analogies within Research-Creation Board Game Design
+		</h2>
+	
+	<div class="row">
+		<div class="main_entry_detail">
+			<div class="authors_keywords_dois">
+									<section class="item authors">
+						<h2 class="pkp_screen_reader">Authors</h2>
+						<ul class="authors">
+													<li><span class="name"><a href="/index.php/mcjournal/search/authors/view?givenName=Scott&familyName=DeJong&affiliation=Concordia%20University&country=CA&authorName=DeJong%2C%20Scott">Scott DeJong</a></span>
+																	<span class="affiliation">
+										<span>Concordia University</span>
+									</span>
+																									<span class="orcid">
+										<a href="https://orcid.org/0000-0001-8337-6510" target="_blank">
+											https://orcid.org/0000-0001-8337-6510
+										</a>
+									</span>
+															</li>
+													<li><span class="name"><a href="/index.php/mcjournal/search/authors/view?givenName=Alexandre&familyName=Bustamante%20de%20Monti%20Souza&affiliation=Concordia%20University&country=BR&authorName=Bustamante%20de%20Monti%20Souza%2C%20Alexandre">Alexandre Bustamante</a></span>
+																	<span class="affiliation">
+										<span>Concordia University</span>
+									</span>
+																									<span class="orcid">
+										<a href="https://orcid.org/0000-0002-3384-2373" target="_blank">
+											https://orcid.org/0000-0002-3384-2373
+										</a>
+									</span>
+															</li>
+												</ul>
+					</section>
+				
+																																			<section class="item doi">
+							<h2 class="label">
+																<abbr title="Digital Object Identifier">DOI:</abbr>
+							</h2>
+							<span class="value">
+								<a href="https://doi.org/10.5204/mcj.2869">
+									https://doi.org/10.5204/mcj.2869
+								</a>
+							</span>
+						</section>
+									
+								
+												
+																			
+			</div>
+
+			<div class="citation_details">
+
+													<div class="item citation">
+						<section class="sub_item citation_display">
+							<h2 class="label">
+								How to Cite
+							</h2>
+							<div class="value">
+								<div id="citationOutput" role="region" aria-live="polite">
+									<div class="csl-bib-body">
+  <div class="csl-entry">DeJong, S., &#38; Bustamante de Monti Souza, A. (2022). Playing Conspiracy: Framing Conspiracy Theory Analogies within Research-Creation Board Game Design. <i>M/C Journal</i>, <i>25</i>(1). https://doi.org/10.5204/mcj.2869 (Original work published March 16, 2022)</div>
+</div>
+								</div>
+								<div class="citation_formats">
+									<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+										More Citation Formats
+									</button>
+									<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+										<ul class="citation_formats_styles">
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/acm-sig-proceedings?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/acm-sig-proceedings?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														ACM
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/acs-nano?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/acs-nano?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														ACS
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/apa?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/apa?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														APA
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														ABNT
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/chicago-author-date?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/chicago-author-date?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														Chicago
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/harvard-cite-them-right?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/harvard-cite-them-right?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														Harvard
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/ieee?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/ieee?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														IEEE
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/modern-language-association?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/modern-language-association?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														MLA
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														Turabian
+													</a>
+												</li>
+																							<li>
+													<a
+														aria-controls="citationOutput"
+														href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/vancouver?submissionId=2869&amp;publicationId=3342"
+														data-load-citation
+														data-json-href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/get/vancouver?submissionId=2869&amp;publicationId=3342&amp;return=json"
+													>
+														Vancouver
+													</a>
+												</li>
+																					</ul>
+																					<div class="label">
+												Download Citation
+											</div>
+											<ul class="citation_formats_styles">
+																									<li>
+														<a href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/download/ris?submissionId=2869&amp;publicationId=3342">
+															<span class="fa fa-download"></span>
+															Endnote/Zotero/Mendeley (RIS)
+														</a>
+													</li>
+																									<li>
+														<a href="https://journal.media-culture.org.au/index.php/mcjournal/citationstylelanguage/download/bibtex?submissionId=2869&amp;publicationId=3342">
+															<span class="fa fa-download"></span>
+															BibTeX
+														</a>
+													</li>
+																							</ul>
+																			</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				
+			</div>
+
+			<div class="issue_info">
+
+														<div>
+																							<a href="https://journal.media-culture.org.au/index.php/mcjournal/issue/view/conspiracy">
+									<img src="https://journal.media-culture.org.au/public/journals/1/cover_issue_151_en_US.jpg" alt="Image: &quot;tin foil hat&quot;, by Tom Radetzki on Unsplash">
+								</a>
+													</div>
+				
+													<div>
+						<a class="title" href="https://journal.media-culture.org.au/index.php/mcjournal/issue/view/conspiracy">Vol. 25 No. 1 (2022): conspiracy</a>
+													<div>Published
+																									2022-03-16 — Updated on 2022-03-17
+															</div>
+												<div class="section section_articles">Articles</div>					</div>
+				
+				
+
+				
+			</div>
+
+			
+
+		</div>
+		<div class="main_entry">
+
+										<section itemprop="articleBody" class="item abstract">
+					<h1><strong>Introduction</strong></h1>
+<p>Scholars, journalists, conspiracists, and public-facing groups have employed a variety of analogies to discuss the role that misleading content (conspiracy theory, disinformation, malinformation, and misinformation), plays in our everyday lives. Terms like the “disinformation war” (Hwang) or the “Infodemic” (United Nations) attempt to summarise the issues of misleading content to aide public understanding. This project studies the effectiveness of these analogies in conveying the movement of online conspiracy theory in social media networks by simulating them in a game. Building from growing comparisons likening conspiracy theories to game systems (Berkowitz; Kaminska), we used game design as a research tool to test these analogies against theory. This article focusses on the design process, rather than implementation, to explore where the analogies succeed and fail in replication.</p>
+<h1><strong>Background and Literature Review</strong></h1>
+<h2>Conspiracy Theories and Games</h2>
+<p>Online conspiracy theories reside in the milieu of misinformation (unintentionally incorrect), disinformation (intentionally incorrect), and malinformation (intentionally harmful) (Wardle and Derakhshan 45). They are puzzled together through the vast amount of information available online (Hannah 1) creating a “hunt” for truth (Berkowitz) that refracts information through deeply personal narratives that create paradoxical interpretations (Hochschild xi). Modern social media networks offer curated but fragmented content distribution where information discovery involves content finding users through biased sources (Toff and Nielsen 639).</p>
+<p>This puzzling together of theories gives conspiracy theorists agency in ‘finding the story’, giving them agency in a process with underlining goals (Kaminska). A contemporary example is QAnon, where the narrative of a “secret global cabal”, large-scale pedophile rings, and overstepping government power is pieced together through Q-drops or cryptic clues that users decipher (Bloom and Moskalenko 5). This puzzle paints a seemingly hidden reality for players to uncover (Berkowitz) and offers gripping engagement which connects “disparate data” into a visualised conspiracy (Hannah 3).</p>
+<p>Despite their harmful impacts, conspiracy theories are playful (Sobo). They can be likened to playful acts of make-belief (Sobo), reality-adjacent narratives that create puzzles for exploration (Berkowitz), and community building through playful discovery (Bloom and Moskalenko 169). Not only do conspiracies “game the algorithm” to promote content, but they put players into in a self-made digital puzzle (Bloom and Moskalenko 17, 18).</p>
+<p>This array of human and nonhuman actors allows for truth-spinning that can push people towards conspiracy through social bonds (Moskalenko). Mainstream media and academic institutions are seen as biased and flawed information sources, prompting these users to “do their own research” within these spaces (Ballantyne and Dunning). However, users are in fragmented worldviews, not binaries of right and wrong, which leaves journalism and fact-checkers in a digital world that requires complex intervention (De Maeyer 22).</p>
+<h2>Analogies</h2>
+<p>Analogies are one method of intervention. They offer explanation for the impact conspiracy has had on society, such as the polarisation of families (Andrews). Both conspiracists and public-facing groups have commonly used an analogy of war. The recent pandemic has also introduced analogies of virality (Hwang; Tardáguila et al.).</p>
+<p>A war analogy places truth on a battleground against lies and fiction. “Doing your own research” is a combat maneuver for conspiracy proliferation through community engagement (Ballantyne and Dunning). Similarly, those fighting digital conspiracies have embraced the analogy to explain the challenges and repercussions of content. War suggests hardened battlelines, the need for public mobilisation, and a victory where truth prevails, or defeat where fallacy reigns (Shackelford).</p>
+<p>Comparatively, a viral analogy, or “Infodemic” (United Nations), suggests misleading content as moving through a network like an infectious system; spreading through paths of least resistance or effective contamination (Scales et al. 678; Graham et al. 22). Battlelines are replaced with paths or invasion, where the goal is to infect the system or construct a rapid response vaccine that can stymie the ever-growing disease (Tardáguila et al.).</p>
+<p>In both cases, victorious battles or curative vaccinations frame conspiracy and disinformation as temporary problems. The idea of the rise and falls of a conspiracy’s prominence as link to current events emulates Byung-Chung Han’s notion of the digital swarm, or fragmented communities that coalesce, bubble up into volatile noise, and then dissipate without addressing the “dominant power relations” (Han 12). For Han, swarms arise in digital networks with intensive support before disappearing, holding an influential but ephemeral life.</p>
+<p>Recently, scholarship has applied a media ecology lens to recognise the interconnection of actors that contribute to these swarms. The digital-as-ecosystem approach suggests a network that needs to be  actively managed (Milner and Phillips 8). Tangherlini et al.’s work on conspiracy pipelines highlights the various actors that move information through them to make the digital ecosystem healthy or unhealthy (Tangherlini et al.). Seeing the Internet, and the movement of information on it, as an ecology posits a consideration of processes that are visible (i.e., conspiracy theorists) and invisible (i.e., algorithms etc.) and is inclusive of human and non-human actors (Milner and Phillips).</p>
+<p>With these analogies as frames, we answer Sobo’s call for a playful lens towards conspiracy alongside De Maeyer’s request for serious interventions by using serious play. If we can recognise both conspiracy and its formation as game-like and understand these analogies as explanatory narratives, we can use simulation game design to ask: how are these systems of conspiracy propagation being framed? What gaps in understanding arise when we frame conspiracy theory through the analogies used to describe it?  </p>
+<h1><strong>Method</strong></h1>
+<h2>Research-Creation and Simulation Gaming</h2>
+<p>Our use of game design methods reframed analogies through “gaming literacy”, which considers the knowledge put into design and positions the game as a set of practices relating to the everyday (Zimmerman 24). This process requires constant reflection. In both the play of the game and the construction of its parts we employed Khaled’s critical design framework (10-11). From March to December 2021 we kept reflective logs, notes from bi-weekly team meetings, playtest observations, and archives of our visual design to consistently review and reassess our progression. We asked how the visuals, mechanics, and narratives point to the affordances and drawbacks of these analogies.</p>
+<h2>Visual and Mechanical Design</h2>
+<p>Before designing the details of the analogies, we had to visualise their environment – networked social media. We took inspiration from existing visual representations of the Internet and social media under the hypothesis that employing a familiar conceptual model could improve the intelligibility of the game (figs. 1 and 2). In usability design, this is referred to as "Jakob's law" (Nielsen), in which, by following familiar patterns, the user can focus better on content, or in our case, play.</p>
+<p><img src="https://journal.media-culture.org.au/public/site/images/nsmith06/mceclip3.png" /></p>
+<p><em>Fig. 1: “My Twitter Social Ego Networks” by David Sousa-Rodrigues. A visual representation of Sousa-Rodrigues’s social media network. &lt;<a href="https://www.flickr.com/photos/11452351@N00/2048034334">https://www.flickr.com/photos/11452351@N00/2048034334</a>&gt;.</em></p>
+<p>We focussed on the networked publics (Itō) that coalesce around information and content disclosure. We prioritised data practices that influence community construction through content (Bloom and Moskalenko 57), and the larger conspiracy pipelines of fragmented data (Tangherlini et al. 30).</p>
+<p><img src="https://journal.media-culture.org.au/public/site/images/nsmith06/mceclip2.png" /></p>
+<p><em>Fig. 2: "The Internet Map" by Ruslan Enikeev. A visual, 2D, interactive representation of the Internet. &lt;<a href="http://internet-map.net/">http://internet-map.net/</a>&gt;.</em></p>
+<p>Our query focusses on how play reciprocated, or failed to reciprocate, these analogies. Sharp et al.’s suggestion that obvious and simple models are intuitively understood allowed us to employ simplification in design in the hopes of parsing down complex social media systems. Fig. 3 highlights this initial attempt where social media platforms became “networks” that formed proximity to specific groups or “nodes”.</p>
+<p><img src="https://journal.media-culture.org.au/public/site/images/nsmith06/mceclip1.png" /></p>
+<p><em>Fig. 3: Early version of the game board, with a representation of nodes and networks as simplified visualisations for social networks.</em></p>
+<p>This simplification process guided the scaling of design as we tried to make the seemingly boundless online networks accessible. Colourful tokens represented users, placed on the nodes (fig. 4). Tokens represented portions of the user base, allowing players to see the proliferation of conspiracy through the network. Unfortunately, this simplification ignores the individual acts of users and their ability to bypass these pipelines as well as the discovery-driven collegiality within these communities (Bloom and Moskalenko 57). To help offset this, we designed an overarching scenario and included “flavour text” on cards (fig. 5) which offered narrative vignettes that grounded player actions in dynamic story. </p>
+<p><img src="https://journal.media-culture.org.au/public/site/images/nsmith06/mceclip0.png" /></p>
+<p><em>Fig. 4: The first version for the printed playtest for the board, with the representation of “networks” formed by a clustering of "nodes". The movement of conspiracy was indicated by colour-coded tokens.</em></p>
+<p><img style="width: 50% !important;" src="https://journal.media-culture.org.au/public/site/images/nsmith06/2869-other-8867-1-6-20220307.png" alt="" /><img style="width: 50% !important;" src="https://journal.media-culture.org.au/public/site/images/nsmith06/2869-other-8868-1-6-20220307.png" alt="" /></p>
+<p><em>Fig. 5: Playing cards. They reference a particular action which typically adds or removes token. They also reference a theory and offer text to narrativise the action.</em></p>
+<p>Design demonstrates that information transmission is not entirely static. In the most recent version (fig. 6), this meant having the connections between nodes become subverted through player actions. Game mechanics, such as playing cards (fig. 5), make these pipelines interactive and visible by allowing players to place and move content throughout the space in response to each other’s actions.</p>
+<p><img src="https://journal.media-culture.org.au/public/site/images/nsmith06/mceclip4.png" /></p>
+<p><em>Fig. 6: The most updated version of the board, now named "Lizards and Lies". Red regions are initial starting points for conspiracy to enter mainstream social media (purple).</em></p>
+<p>Design adaptations focussed on making conspiracy theory dynamic. Player choice (i.e. where to add conspiracy) had to consider a continuously changing board created by other actors to reflect the adaptive nature of conspiracy theories. In this way, analogies came alive or died through the actions of players within a visually responsive system. This meant that each game had different swarms of conspiracy, where player decisions “wrote” a narrative through play. By selecting how and where conspiracy might be placed or removed, players created a narrative distinct to their game. For example, a conspiracy theorist player (one playable character) might explain their placing of conspiracy theory within the Chrpr/Twitter network as a community response to fact-checking (second playable character) in the neighbouring Shreddit/Reddit community.</p>
+<h1><strong>Results</strong></h1>
+<h2>War Analogy</h2>
+<p>Initial design took inspiration from wargaming to consider battlelines, various combatants, and a simulated conflict. Two player characters were made. Conspiracy theorists were posited against fact-checkers, where nodes and networks functioned as battlelines of intervention.</p>
+<p>The war narrative was immediately challenged by the end-state. Either conspiracy overtook networks or the fact checkers completely stymied conspiracy’s ability to exist. Both end-states seemed wrong for players. Battle consistently felt futile as conspiracists could always add more content, and fact-checkers could always remove something.</p>
+<p>Simply put, war fell flat. While the game could depict communities and spaces of combat, it struggled to represent how fragmented conspiracy theories are. In play, conspiracy theory became stagnant, the flow of information felt compelled, and the actors entered uneven dynamics. Utopia was never achieved, and war always raged on. Even when players did overtake a network, the victory condition (needing to control the most networks) made this task, which would normally be compelling, feel lacklustre.</p>
+<p>To address this, we made changes. We altered the win condition to offer points at the end of each turn depending on what the player did (i.e., spreading conspiracy into networks). We expanded the number of networks and connections between them (fig. 3 and fig. 6) to include more fluid and fragmented pipelines of conspiracy dissemination. We included round-end events which shifted the state of the game based on other actors, and we pushed players to focus on their own actions more than those of the others on the board. These changes naturally shifted the battleground from hardened battle lines to a fragmented amorphous spread of disinformation; it moved war to virality.</p>
+<h2>Viral Analogy</h2>
+<p>As we transitioned towards the viral, we prioritised the reflexive, ephemeral movements of conspiracy proliferating through networks. We focussed less on adding and removing content and shifted to the movement of actors through the space. Some communities became more susceptible to conspiracy content, fact-checkers relied on flagging systems, and conspiracy theories followed a natural, but unexpected pipeline of content dissemination.</p>
+<p>These changes allowed players to feel like individual actors with specific goals rather than competing forces. Fact-checkers relied on mitigation and response while conspiracists evaluated the susceptibility of specific communities to conspiracy content. This change illuminated a core issue with fact-checking; it is entirely responsive, endless, and too slow to stop content from having an impact. While conspiracists could play one card to add content, fact-checkers had to flag content, move their token, and use a player card to eliminate content – all of which exacerbated this issue. In this manner, the viral approach rearticulated how systems themselves afford the spread of conspiracy, where truly effective means to stop the spread relied on additional system actors, such as training algorithms to help remove and flag content.</p>
+<p>While a more effective simulation, the viral analogy struggled in its presentation of conspiracy theory within social media. Play had a tipping point, where given enough resources, those stopping the spread of conspiracy could “vaccinate” it and clean the board. To alter this, our design began to consider actions and reactions, creating a push and pull of play focussed on balancing or offsetting the system. This transition naturally made us consider a media ecology analogy.</p>
+<h2>Media Ecology</h2>
+<p>Replacing utopic end-states with a need to maintain network health reframed the nature of engagement within this simulation. An ecological model recognises that harmful content will exist in a system and aims not at elimination, but at maintaining a sustainable balance. It is responsive. It considers the various human and non-human actors at play and focusses on varied actor goals. As our game shifted to an ecological model, homogenous actors of conspiracists or fact-checkers were expanded. We transitioned a two-player game into a four-player variant, testing options like literacy educators, content recommending algorithms, and ‘edgelords'. Rather than defeating or saving social media, play becomes focussed on actors in the system.</p>
+<p>Play and design demonstrated how actions would shape play decisions. Characters were seen as network actors rather than enemies, changing interaction. Those spreading conspiracy began to focus less on “viral paths”, or lines of battle, and instead on where or how they could impact system health. In some cases, conspiracists would build one network of support, in others they created pockets around the board from which they could run campaigns. Those stopping the spread came to see their job as management. Rather than try and eliminate all conspiracy, they determined which sites to engage with, what content held the greatest threat, and which tools would be most effective. Media ecology play focussed less on outsmarting opponents and instead on managing an actor’s, and other players’, goals within an evolving system.</p>
+<h1><strong>Challenging Swarms and a Turn to Digital Ecology</strong></h1>
+<p>Using games to evaluate analogies illuminates clear gaps in their use, and the value of a media ecology lens. A key issue across the two main analogies (war and virality) was a utopic endstate. The idea that conspiracy can be beaten back, or vaccinated, fails to consider the endless amount of conspiracy possible to be made, or the impossibility of vaccinating the entire system. As our transitionary design process shows, the notion of winners and losers misplaces the intent of various actors groups where conspiracy is better framed as community-building rather than “controlling” a space (Bloom and Moskalenko 57).</p>
+<p>In design, while Han’s notion of the swarm was helpful, it struggled to play out in our simulations because fragments of conspiracy always remained on the board. This lingering content suggests that fact-checking does not actually remove ideological support. Swarms could quickly regrow around lingering support presenting them not as ephemeral as Han argued. As design transitioned towards ecology, these “fragments” were seen as part of a system of actors. Gameplay shows a deep interplay between the removal of content and its spread, arguing that removing conspiracy is a band-aid solution to a larger problem.</p>
+<p>Our own simplification of analogy into a game is not without limitations. Importantly, the impact of user specific acts for interpreting a movement (Toff and Nielsen 640), and the underlying set of networks that create “dark platforms” (Zeng and Schäfer 122) were lost in the game’s translation. Despite this, our work provides directions for scholarship and those engaging with the public on these issues to consider. Reframing our lens to understand online conspiracy as an aspect of digital ecological health, asks us to move away from utopic solutions and instead focus on distinct actors as they relate to the larger system.</p>
+<h1><strong>Conclusion</strong></h1>
+<p>Employing serious play as a lens to our framing of digital conspiracy, this project emphasises a turn towards media ecology models. Game design functioned as a tool to consider the actors, behaviours, and interactions of a system. Our methodological approach for visualising war and viral analogies demonstrates how playful responses can prompt questions and considerations of theory. Playing in this way, offers new insights for how we think about and grapple with the various actors associated with conspiracy theory and scholarship should continue to embrace ecological models to weigh the assemblage of actors.</p>
+<h2>References</h2>
+<p>Andrews, Travis. “QAnon Is Tearing Families Apart.” <em>Washington Post</em>, 2020. <em>&lt;</em><a href="https://www.washingtonpost.com/technology/2020/09/14/qanon-families-support-group/">https://www.washingtonpost.com/technology/2020/09/14/qanon-families-support-group/</a>&gt;.</p>
+<p>Ballantyne, Nathan, and David Dunning. “Skeptics Say, ‘Do Your Own Research.’ It’s Not That Simple.” <em>The New York Times</em>, 3 Jan. 2022. <em>&lt;</em><a href="https://www.nytimes.com/2022/01/03/opinion/dyor-do-your-own-research.html">https://www.nytimes.com/2022/01/03/opinion/dyor-do-your-own-research.html</a>&gt;.</p>
+<p>Berkowitz, Reed. “QAnon Resembles the Games I Design. But for Believers, There Is No Winning.” <em>Washington Post</em>, 2021. <em>&lt;</em><a href="https://www.washingtonpost.com/outlook/qanon-game-plays-believers/2021/05/10/31d8ea46-928b-11eb-a74e-1f4cf89fd948_story.html">https://www.washingtonpost.com/outlook/qanon-game-plays-believers/2021/05/10/31d8ea46-928b-11eb-a74e-1f4cf89fd948_story.html</a>&gt;.</p>
+<p>Bloom, Mia, and Sophia Moskalenko. <em>Pastels and Pedophiles: Inside the Mind of QAnon</em>. Stanford University Press, 2021.</p>
+<p>De Maeyer, Juliette. “Taking Conspiracy Culture Seriously: Journalism Needs to Face Its Epistemological Trouble.” <em>Journalism</em> 20.1 (2019): 21–23. <em>&lt;</em><a href="https://doi.org/10.1177/1464884918807037">https://doi.org/10.1177/1464884918807037</a>&gt;.</p>
+<p>Graham, Timothy, et al. <em>Like a Virus: The Coordinated Spread of Coronavirus Disinformation</em>. The Australia Institute, 2020. <em>&lt;</em><a href="https://apo.org.au/node/305864">https://apo.org.au/node/305864</a>&gt;.</p>
+<p>Han, Byung-Chul. <em>In the Swarm: Digital Prospects</em>. Trans. Erik Butler. MIT Press, 2017.</p>
+<p>Hannah, Matthew N. “A Conspiracy of Data: QAnon, Social Media, and Information Visualization.” <em>Social Media + Society</em>, 7.3 (2021). <em>&lt;</em><a href="https://doi.org/10.1177/20563051211036064">https://doi.org/10.1177/20563051211036064</a>&gt;.</p>
+<p>Hochschild, Arlie Russell. <em>Strangers in Their Own Land: Anger and Mourning on the American Right</em>. The New Press, 2016.</p>
+<p>Hwang, Tim. “Deconstructing the Disinformation War.” <em>MediaWell, Social Science Research Council</em> 1 June 2020. &lt;<a href="https://mediawell.ssrc.org/expert-reflections/deconstructing-the-disinformation-war/">https://mediawell.ssrc.org/expert-reflections/deconstructing-the-disinformation-war/</a>&gt;.</p>
+<p>Itō, Mizuko. “Introduction.” <em>Networked Publics</em>. Ed. Kazys Varnelis. MIT Press, 2008.</p>
+<p>Kaminska, Izabella. “The ‘Game Theory’ in the Qanon Conspiracy Theory.” <em>Financial Times</em> 16 Oct. 2020. &lt;<a href="https://www.ft.com/content/74f9d20f-9ff9-4fad-808f-c7e4245a1725">https://www.ft.com/content/74f9d20f-9ff9-4fad-808f-c7e4245a1725</a>&gt;.</p>
+<p>Khaled, Rilla. “Questions over Answers: Reflective Game Design.” <em>Playful Disruption of Digital Media</em>. Ed. Daniel Cermak-Sassenrath. Singapore: Springer, 2018. 3–27. &lt;<a href="https://doi.org/10.1007/978-981-10-1891-6_1">https://doi.org/10.1007/978-981-10-1891-6_1</a>&gt;.</p>
+<p>Milner, Ryan M., and Whitney Phillips. <em>You Are Here</em>. MIT Press, 2020. &lt;<a href="https://you-are-here.pubpub.org/">https://you-are-here.pubpub.org/</a>&gt;.</p>
+<p>Moskalenko, Sophia. “Evolution of QAnon &amp; Radicalization by Conspiracy Theories.” <em>The Journal of Intelligence, Conflict, and Warfare</em> 4.2 (2021): 109–14. &lt;<a href="https://doi.org/10.21810/jicw.v4i2.3756">https://doi.org/10.21810/jicw.v4i2.3756</a>&gt;.</p>
+<p>Nielsen, Jakob. “End of Web Design.” <em>Nielsen Norman Group</em>, 2000. &lt;<a href="https://www.nngroup.com/articles/end-of-web-design/">https://www.nngroup.com/articles/end-of-web-design/</a>&gt;.</p>
+<p>Scales, David, et al. “The Covid-19 Infodemic — Applying the Epidemiologic Model to Counter Misinformation.” <em>New England Journal of Medicine</em> 385.8  (2021): 678–81. &lt;<a href="https://doi.org/10.1056/NEJMp2103798">https://doi.org/10.1056/NEJMp2103798</a>&gt;.</p>
+<p>Shackelford, Scott. “The Battle against Disinformation Is Global.” <em>The Conversation</em> 2020. &lt;<a href="http://theconversation.com/the-battle-against-disinformation-is-global-129212">http://theconversation.com/the-battle-against-disinformation-is-global-129212</a>&gt;.</p>
+<p>Sharp, Helen, et al. <em>Interaction Design: Beyond Human-Computer Interaction</em>. 5th ed. Wiley, 2019.</p>
+<p>Sobo, Elisa Janine. “Playing with Conspiracy Theories.” <em>Anthropology News</em> 31 July 2019. &lt;<a href="https://www.anthropology-news.org/articles/playing-with-conspiracy-theories/">https://www.anthropology-news.org/articles/playing-with-conspiracy-theories/</a>&gt;.</p>
+<p>Tangherlini, Timothy R., et al. “An Automated Pipeline for the Discovery of Conspiracy and Conspiracy Theory Narrative Frameworks: Bridgegate, Pizzagate and Storytelling on the Web.” <em>PLoS ONE</em> 15.6 (2020). &lt;<a href="https://doi.org/10.1371/journal.pone.0233879">https://doi.org/10.1371/journal.pone.0233879</a>&gt;.</p>
+<p>Tardáguila, Cristina, et al. “Taking an Ecological Approach to Misinformation.” <em>Poynter</em> 5 Dec. 2019. &lt;<a href="https://www.poynter.org/fact-checking/2019/taking-an-ecological-approach-to-misinformation/">https://www.poynter.org/fact-checking/2019/taking-an-ecological-approach-to-misinformation/</a>&gt;.</p>
+<p>Toff, Benjamin, and Rasmus Kleis Nielsen. “‘I Just Google It’: Folk Theories of Distributed Discovery.” <em>Journal of Communication</em> 68.3 (2018): 636–57. &lt;<a href="https://doi.org/10.1093/joc/jqy009">https://doi.org/10.1093/joc/jqy009</a>&gt;.</p>
+<p>United Nations. “UN Tackles ‘Infodemic’ of Misinformation and Cybercrime in COVID-19 Crisis.” 2020. &lt;<a href="https://www.un.org/en/un-coronavirus-communications-team/un-tackling-%E2%80%98infodemic%E2%80%99-misinformation-and-cybercrime-covid-19">https://www.un.org/en/un-coronavirus-communications-team/un-tackling-%E2%80%98infodemic%E2%80%99-misinformation-and-cybercrime-covid-19</a>&gt;.</p>
+<p>Wardle, Claire, and Hossein Derakhshan. “Thinking about ‘Information Disorder’: Formats of Misinformation, Disinformation, and Mal-Information.” <em>Journalism, ‘Fake News’ &amp; Disinformation</em>. Eds. Cherilyn Ireton and Julie Posetti. Paris: Unesco, 2018. 43–54.</p>
+<p>Zeng, Jing, and Mike S. Schäfer. “Conceptualizing ‘Dark Platforms’. Covid-19-Related Conspiracy Theories on 8kun and Gab.” <em>Digital Journalism</em> 9.9 (2021): 1321–43. &lt;<a href="https://doi.org/10.1080/21670811.2021.1938165">https://doi.org/10.1080/21670811.2021.1938165</a>&gt;.</p>
+<p>Zimmerman, Eric. “Gaming Literacy: Game Design as a Model for Literacy in the Twenty-First Century.” <em>The Video Game Theory Reader 2</em>. 2008. 9.</p>
+				</section>
+			
+			
+
+																																																<section class="item author_bios">
+					<h2 class="label">
+													Author Biographies
+											</h2>
+																		<section class="sub_item">
+								<h3 class="label">
+																																							Scott DeJong, <span class="affiliation">Concordia University</span>
+																	</h3>
+								<div class="value">
+									<p>Scott DeJong is a PhD student in Communication studies at Concordia University examining serious play, web literacy, and digital cultures. Scott’s work is focused on how play can be used to critically research and discuss cultural issues. Beyond his own research, Scott is an active member of the TAG lab, the mlab, the algorithmic media observatory, and the ACT (Ageing, Communications + Technologies) project.</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Alexandre Bustamante, <span class="affiliation">Concordia University</span>
+																	</h3>
+								<div class="value">
+									<p>Alexandre Bustamante is a second-year Master of Design student at Concordia University with previous degrees in both Architecture and Design Arts. He researches interactive and speculative design for digital media literacy and disinformation awareness. Besides his research, he is a member of the SpokenWeb team, working as a UX (user experience) and visual Designer, promoting a participative, user-centred design approach for their digital projects.</p>
+								</div>
+							</section>
+															</section>
+			
+						
+		</div><!-- .main_entry -->
+
+	</div><!-- .row -->
+
+				<div class="row tem copyright">
+			<h2 class="label">
+				License
+			</h2>
+																		<p>Copyright (c) 2022 Scott DeJong, Alexandre Bustamante</p>
+										<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+										<p>Authors who publish with this journal agree to the following terms:</p><ol><li>Authors retain copyright and grant the journal right of first publication with the work simultaneously licenced under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution - Noncommercial - No Derivatives 4.0 Licence</a> that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</li><li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li><li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (see <a href="http://opcit.eprints.org/oacitation-biblio.html" target="_new">The Effect of Open Access</a>).</li></ol>
+		</div>
+	</article>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "ScholarlyArticle",
+	"isPartOf": {
+		"@type" : "PublicationIssue",
+		"datePublished": "2022-03-16",
+		"issueNumber": "1",
+		"name": "conspiracy",
+		"url": "https://journal.media-culture.org.au/index.php/mcjournal/article/view/conspiracy",
+		"isPartOf": {
+			"@id": "#vol25",
+			"@type" : "PublicationVolume",
+			"volumeNumber": "25"
+		}
+	},	"sameAs": "https://doi.org/10.5204/mcj.2869",	"description": "Introduction  
+ Scholars, journalists, conspiracists, and public-facing groups have employed a variety of analogies to discuss the role that misleading content (conspiracy theory, disinformation, malinformation, and misinformation), plays in our everyday lives. Terms like the “disinformation war” (Hwang) or the “Infodemic” (United Nations) attempt to summarise the...",
+	"name": "Playing Conspiracy",
+	"headline": "Playing Conspiracy","alternativeHeadline" : "Framing Conspiracy Theory Analogies within Research-Creation Board Game Design",	"datePublished" : "2022-03-17",
+	"dateModified" : "2022-03-17",
+	"publisher" : {
+		"@id": "#mediaculturepublisher",
+		"@type" : "Organization"
+	},
+	"image" : "https://journal.media-culture.org.au/public/journals/1/cover_issue_151_en_US.jpg",
+	"mainEntityOfPage" : {
+		"@type" : "WebPage",
+		"@id" : "https://journal.media-culture.org.au/index.php/mcjournal/article/view/2869"
+	},
+	"author": [
+					{
+				"@type" : "Person",
+				"name" : "Scott DeJong",
+				"identifier": "https://orcid.org/0000-0001-8337-6510",				"givenName" : "Scott",
+				"affiliation" : "Concordia University",				"description" : "Scott DeJong is a PhD student in Communication studies at Concordia University examining serious play, web literacy, and digital cultures. Scott’s work is focused on how play can be used to critically research and discuss cultural issues. Beyond his own research, Scott is an active member of the TAG lab, the mlab, the algorithmic media observatory, and the ACT (Ageing, Communications +...",				"familyName" : "DeJong"
+			},					{
+				"@type" : "Person",
+				"name" : "Alexandre Bustamante",
+				"identifier": "https://orcid.org/0000-0002-3384-2373",				"givenName" : "Alexandre",
+				"affiliation" : "Concordia University",				"description" : "Alexandre Bustamante is a second-year Master of Design student at Concordia University with previous degrees in both Architecture and Design Arts. He researches interactive and speculative design for digital media literacy and disinformation awareness. Besides his research, he is a member of the SpokenWeb team, working as a UX (user experience) and visual Designer, promoting a participative,...",				"familyName" : "Bustamante de Monti Souza"
+			}			]
+}
+</script>
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+</div><!-- pkp_structure_content -->
+
+								<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+								<div class="pkp_block block_menu">
+					<h2 class="title">M/C Journal</h2>
+					<div class="content">
+						<ul>
+							<li><a href="/index.php">Home</a></li>
+							<li><a href="/index.php/mcjournal/issue/current">Current Issue</a></li>
+							<li><a href="/index.php/mcjournal/information/authors">Upcoming Issues</a></li>
+							<li><a href="/index.php/mcjournal/issue/archive">Archives</a></li>
+							<li><a href="/index.php/mcjournal/search/authors">Contributors</a></li>
+							<li><a href="/index.php/mcjournal/about">About M/C Journal</a></li>
+							<li><a href="/index.php/mcjournal/user">User Home</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pkp_block block_journalcontent">
+					<h2 class="title">Journal Content</h2>
+					<div class="content">
+						<ul>
+							<li><a href="/index.php/mcjournal/search/search">Search</a></li>
+							<li><a href="/index.php/mcjournal/search/authors">By Author</a></li>
+							<li><a href="/index.php/mcjournal/issue/archive">By Issue</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pkp_block block_user">
+					<h2 class="title">User</h2>
+					<div class="content">
+						<ul>
+							<li><a href="/index.php/mcjournal/login">Login</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="pkp_block block_web_feed">
+	<h2 class="title">Current Issue</h2>
+	<div class="content">
+		<ul>
+			<li>
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/gateway/plugin/WebFeedGatewayPlugin/atom">
+					<img src="https://journal.media-culture.org.au/lib/pkp/templates/images/atom.svg" alt="Atom logo">
+				</a>
+			</li>
+			<li>
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/gateway/plugin/WebFeedGatewayPlugin/rss2">
+					<img src="https://journal.media-culture.org.au/lib/pkp/templates/images/rss20_logo.svg" alt="RSS2 logo">
+				</a>
+			</li>
+			<li>
+				<a href="https://journal.media-culture.org.au/index.php/mcjournal/gateway/plugin/WebFeedGatewayPlugin/rss">
+					<img src="https://journal.media-culture.org.au/lib/pkp/templates/images/rss10_logo.svg" alt="RSS1 logo">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://journal.media-culture.org.au/index.php/mcjournal/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://journal.media-culture.org.au/index.php/mcjournal/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://journal.media-culture.org.au/index.php/mcjournal/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+
+
+				<div class="pkp_block block_fontsize">
+					<h2 class="title">Font Size</h2>
+					<div id="fontsize" class="content">
+						<a href="#fontsize" onclick="modifyfont('dec');"><img alt="decrease font" height=20 width=20 src="/plugins/themes/mediaculture/img/font-down.png"></a>
+						<a href="#fontsize" onclick="modifyfont('reset');"><img alt="reset font size" height=20 width=20 src="/plugins/themes/mediaculture/img/font-default.png"></a>
+						<a href="#fontsize" onclick="modifyfont('inc');"><img alt="increase font" height=20 width=20 src="/plugins/themes/mediaculture/img/font-up.png"></a>
+					</div>
+				</div>
+			</div><!-- pkp_sidebar.left -->
+			
+<div class="pkp_structure_footer_wrapper">
+	<a id="pkp_content_footer"></a>
+	<div class="pkp_structure_footer">
+			</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+<footer role="contentinfo">
+	<div class="footer-details">
+		<a class="mclink" rel="external" href="http://www.media-culture.org.au/" target="_blank" title="Learn more about Media and Culture at the M/C Website">an <img src="/plugins/themes/mediaculture/img/logo-only-inverted.svg" width="10" height="10" alt="M/C"> publication</a>
+		<a class="cilink" rel="supporting_institution" href="https://www.qut.edu.au/creative-industries" target="_blank" title="Learn more about QUT Creative Industries">Supported by <img alt="QUT Creative Industries" src="/plugins/themes/mediaculture/img/ci_logo_2lines_blue.png"></a>
+	</div>
+	<div class="footer-copyright">
+		<p>Copyright &copy; <abbr title="Media and Culture">M/C</abbr>, 1998-2025 <abbr title="International Standard Serial Number">ISSN</abbr> 1441-2616</p>
+	</div>
+	<div class="footer-mclinks">
+		<ul>
+			<li><a href="http://www.media-culture.org.au/aboutus.php" target="_blank" rel="external">About M/C</a></li>
+			<li><a href="http://www.media-culture.org.au/contactUs.php" target="_blank" rel="external">Contact M/C</a></li>
+			<li><a href="http://www.media-culture.org.au/accessibility.php" target="_blank" rel="external">Accessibility</a></li>
+		</ul>
+	</div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?v=3.2.1.1" type="text/javascript"></script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js?v=3.2.1.1" type="text/javascript"></script><script src="https://journal.media-culture.org.au/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js?v=3.2.1.1" type="text/javascript"></script><script src="https://journal.media-culture.org.au/plugins/themes/mediaculture/js/lib/popper/popper.js?v=3.2.1.1" type="text/javascript"></script><script src="https://journal.media-culture.org.au/plugins/themes/mediaculture/js/lib/bootstrap/util.js?v=3.2.1.1" type="text/javascript"></script><script src="https://journal.media-culture.org.au/plugins/themes/mediaculture/js/lib/bootstrap/dropdown.js?v=3.2.1.1" type="text/javascript"></script><script src="https://journal.media-culture.org.au/plugins/themes/mediaculture/js/main.js?v=3.2.1.1" type="text/javascript"></script><script src="https://journal.media-culture.org.au/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.2.1.1" type="text/javascript"></script>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@graph": [
+	{
+		"@type": "Periodical",
+		"@id" : "#mediaculturejournal",
+		"issn": "1441-2616",		"name": "M/C Journal",
+		"description" : "",
+		"image" : "https://journal.media-culture.org.au/public/journals/1/pageHeaderLogoImage_en_US.svg",
+		"publisher": {
+			"@type": "Organization",
+			"@id" : "#mediaculturepublisher",
+			"name" : "M/C - Media and Culture",
+			"foundingDate" : "1998",
+			"description" : "M/C — Media and Culture was founded in 1998 as a place of public intellectualism, analysing and critiquing the meeting of media and culture. Our publications and other activities serve as a point of crossover between the popular and the academic — we take seriously the need to move ideas outward, so that our debates may have some resonance with wider political and cultural interests.",
+			"url" : "http://www.media-culture.org.au/",
+			"logo" : {
+				"@type" : "ImageObject",
+				"url" : "https://journal.media-culture.org.au/plugins/themes/mediaculture/img/media_culture_logo.gif"
+			},
+			"sponsor" : {
+				"@type": "Organization",
+				"name" : "Queensland University of Technology",
+				"url" : "https://www.qut.edu.au",
+				"image" : "https://journal.media-culture.org.au/plugins/themes/mediaculture/img/logo-white.svg",
+				"logo" : {
+					"@type" : "ImageObject",
+					"url" : "https://journal.media-culture.org.au/plugins/themes/mediaculture/img/logo-white.svg"
+				},
+				"Department" : {
+					"@type" : "Organization",
+					"name" : "Creative Industries Faculty",
+					"url" : "https://www.qut.edu.au/creative-industries",
+					"image" : "https://journal.media-culture.org.au/plugins/themes/mediaculture/img/ci_logo_2lines_blue.png",
+					"logo" : {
+						"@type" : "ImageObject",
+						"url" : "https://journal.media-culture.org.au/plugins/themes/mediaculture/img/ci_logo_2lines_blue.png"
+					}
+				}
+			}
+		}
+	},
+	{
+		"@type": "WebSite",
+		"name": "M/C Journal",
+		"description" : "",
+		"url": "https://journal.media-culture.org.au",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"name" : "Search M/C Journal",
+			"target": "https://journal.media-culture.org.au/index.php/mcjournal/search/search?query={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	}
+	]
+}
+</script>
+<a id="scrolltotop" title="Scroll to top" href="#pkp_content_main"><img src="/plugins/themes/mediaculture/img/top-arrow-icon.jpg" alt="Scroll To Top"></a>
+<script>
+	var elementstomodify = ["P","A","DIV"];
+	var modifier = 0;
+	function modifyfont(direction){
+		var existingmodifer = parseInt(modifier);
+		// Update the modifier
+		if ( direction == "inc" ) {
+			modifier = modifier + 1;
+		} else if ( direction == "dec" ) {
+			modifier = modifier - 1;
+		} else {
+			modifier = 0;
+		}
+		$("*").each(function(index,item){
+    		if ( elementstomodify.includes($(item).prop('nodeName'))){
+    			var currentsize = parseInt($(item).css('font-size'));
+    			var currentline = parseInt($(item).css('line-height'));
+    			if ( modifier == 0 ){
+    				$(item).css({ 'font-size' : '', 'line-height' : ''});
+    			} else {
+    				$(item).css({ 'font-size' : (currentsize - existingmodifer + modifier), 'line-height' : String(currentline - existingmodifer + modifier) + "px" });
+    			}
+    		}
+    	});
+	}
+	$(document).ready(function(){
+		$(".abstract img").click(function(){
+			$.fancybox.open({
+				src : this.src,
+				opts : {
+					caption : this.alt
+				}
+			});
+			return false;
+		});
+		$(".issue_cover_show").click(function(){
+			$.fancybox.open({
+				src : $("#cover_image").attr('src'),
+				opts : {
+					caption : $("#cover_page_description").html()
+				}
+			});
+			return false;
+		});
+	});
+
+	scrollbutton = document.getElementById("scrolltotop");
+	window.onscroll = function() {scrollFunction()};
+	function scrollFunction() {
+	  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+	    scrollbutton.style.display = "block";
+	  } else {
+	    scrollbutton.style.display = "none";
+	  }
+	}
+	function topFunction() {
+	  document.body.scrollTop = 0; // For Safari
+	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+
+</script>
+<script type="text/javascript" src="/plugins/themes/mediaculture/js/lib/fancybox/jquery.fancybox.min.js"></script>
+</body>
+</html>
