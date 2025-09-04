@@ -1,0 +1,4 @@
+# Research Findings from: list_ACM_Transactions_on_Information_Systems
+
+- Inaugural Issue Editorial for ACM Transactions on Quantum Computing
+- Summer

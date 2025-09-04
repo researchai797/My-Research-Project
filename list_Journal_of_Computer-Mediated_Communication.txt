@@ -1,0 +1,4 @@
+# Research Findings from: list_Journal_of_Computer-Mediated_Communication
+
+- Let’s Work Together: Integrating Human Support with Conversational Agents
+- The Future Classroom: Integrating AI and Social Media for Adaptive Learning

@@ -1,0 +1,12 @@
+# Research Findings from: list_New_Media_and_Society
+
+- Perspectives of Generative AI in the Context of Digital Transformation of Society, Audio-Visual Media and Mass Communication: Instrumentalism, Ethics and Freedom
+- AI powered Social Communication: a Qualitative Investigation in to Social and Ethical Concerns
+- Between Copyright and Computer Science: The Law and Ethics of Generative AI
+- The effects of AI on media business: Anxiety, Quality and Creativity
+- AI in Social Media: Changing the Way People Interact Online
+- Leveraging Social Media for Real-Time Interpretable and Amendable Suicide Risk Prediction With Human-in-The-Loop
+- Perceptions of AI Ethics on Social Media
+- Unveiling public perception of AI ethics: an exploration on Wikipedia data
+- The Future Classroom: Integrating AI and Social Media for Adaptive Learning
+- The Impact of Ethics Instruction and Internship on Students’ Ethical Perceptions About Social Media, Artificial Intelligence, and ChatGPT

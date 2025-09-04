@@ -1,0 +1,12 @@
+# Research Findings from: list_AI_and_Society
+
+- Student Views in AI Ethics and Social Impact
+- Toward Fairness, Accountability, Transparency, and Ethics in AI for Social Media and Health Care: Scoping Review
+- On the Mechanics of NFT Valuation: AI Ethics and Social Media
+- Affective counterpublics under constraint: emotion, platform governance, and AI ethics discourse on Chinese social media
+- Perceptions of AI Ethics on Social Media
+- Navigating and Addressing Public Concerns in AI: Insights From Social Media Analytics and Delphi
+- Ethics of the Use of Social Media as Training Data for AI Models Used for Digital Phenotyping
+- Unveiling AI Ethics in Digital Marketing: A Study on Accountability and Fairness among Social Media Users in Palestine
+- Ethics and governance of artificial intelligence in digital China: Evidence from online survey and social media data
+- The Impact of Ethics Instruction and Internship on Students’ Ethical Perceptions About Social Media, Artificial Intelligence, and ChatGPT
